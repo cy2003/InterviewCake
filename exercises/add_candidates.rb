@@ -11,4 +11,6 @@ def vote(candidate)
 end
 
 puts vote("Hello")
+# this will return {"Hello" => 1}
 puts vote("Hi")
+# this will return {"Hello" => 1, "Hi" => 1}
